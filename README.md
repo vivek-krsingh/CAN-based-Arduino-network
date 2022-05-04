@@ -26,8 +26,24 @@ HARDWARE:
 2x CAN modules MCP2515 
 
   Wires and others:
-  2x Female-Male Jumper wire
-  2x Breadboard
+  
+  Node_1
+  11x M-F Jumper wire
+  13x M-M Jumper wire
+  1x Breadboard
+  1x USB 2.0 Cable Type A/B
+  
+  Node_2
+  12x M-F Jumper wire
+  9x M-M Jumper wire
+  1x Breadboard
+  1x USB 2.0 Cable Type A/B
+  
+  Overall:
+  23x M-F Jumper wire
+  22x M-M Jumper wire
+  2x Breadboards
+  2x USB 2.0 Cable Type A/B
   
 SOFTWARE:
 Arduino IDE
