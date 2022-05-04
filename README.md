@@ -19,7 +19,15 @@ The requirements for the successful implementation of this project are as listed
 
 HARDWARE:
 2x Arduino Uno
+1x 10k Potentiometer
+1x Ultrasonic Sensor HC-SR04
+1x Beeper 780-0712
+1x LCD Display (16x2)
+2x CAN modules MCP2515 
 
-1x HC-SR04 Ultrasonic Sensor
-1x LCD Display
-2x MCP2515 CAN modules
+  Wires and others:
+  2x Female-Male Jumper wire
+  2x Breadboard
+  
+SOFTWARE:
+Arduino IDE
