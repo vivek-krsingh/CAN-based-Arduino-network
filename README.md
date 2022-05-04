@@ -10,4 +10,16 @@ NODE_1
 The transmitter unit uses an ultrasonic sensor which sends an ultrasonic pulse towrards the object, which upon hitting the it is reflected back to the sensor. The time duration between the outward pulse and the reflected pulse is used to calculate the distance between the sensor and the object, by the AT328p microcontroller powered developement board. The microcontroller then send this data to the reciever node via the CAN connection.
 
 NODE_2
+The reciever unit receives this distance infomation over CAN and displays the user with a prompt on the LCD screen showing the distance of the sensor(vehicle) to the user. The infomration can also be shared over SPI to another program/system to perform additional calculations.
 
+**3. Schematics**
+
+**4. Requirements**
+The requirements for the successful implementation of this project are as listed below:
+
+HARDWARE:
+2x Arduino Uno
+
+1x HC-SR04 Ultrasonic Sensor
+1x LCD Display
+2x MCP2515 CAN modules
