@@ -41,9 +41,9 @@ HARDWARE:
   
   Overall:
   
-  Component | Arduino Uno | 10k Potentiometer | Ultrasonic Sensor HC-SR04 | Beeper 780-0712 | LCD Display (16x2) | CAN modules MCP2515 | M-F Jumper wire | M-M Jumper wire | Breadboard | USB 2.0 Cable Type A/B 
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Count | 2x | 1x | 1x | 1x | 1x | 2x | 23x | 22x | 2x | 2x 
+ | Component | Arduino Uno | 10k Potentiometer | Ultrasonic Sensor HC-SR04 | Beeper 780-0712 | LCD Display (16x2) | CAN modules MCP2515 | M-F Jumper wire | M-M Jumper wire | Breadboard | USB 2.0 Cable Type A/B |
+|--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---|
+| Count | 2x | 1x | 1x | 1x | 1x | 2x | 23x | 22x | 2x | 2x |
   
 
   
