@@ -18,28 +18,6 @@ The reciever unit receives this distance infomation over CAN and displays the us
 The requirements for the successful implementation of this project are as listed below:
 
 HARDWARE:
-2x Arduino Uno
-1x 10k Potentiometer
-1x Ultrasonic Sensor HC-SR04
-1x Beeper 780-0712
-1x LCD Display (16x2)
-2x CAN modules MCP2515 
-
-  Wires and others:
-  
-  Node_1: 
-  11x M-F Jumper wire
-  13x M-M Jumper wire
-  1x Breadboard
-  1x USB 2.0 Cable Type A/B
-  
-  Node_2: 
-  12x M-F Jumper wire
-  9x M-M Jumper wire
-  1x Breadboard
-  1x USB 2.0 Cable Type A/B
-  
-  Overall:
   
 | Component                 | Count |
 |---------------------------|-------|
@@ -54,5 +32,4 @@ HARDWARE:
 | Breadboard                | 2x    |
 | USB 2.0 Cable Type A/B    | 2x    |
 
-SOFTWARE:
-Arduino IDE
+SOFTWARE: Arduino IDE
