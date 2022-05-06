@@ -33,9 +33,9 @@ The reciever unit receives this distance infomation over CAN and displays the us
 |  MPC2515 - S I  | D11   (SPI_MOSI) |   |  MPC2515 - SI |         11   (SPI_MOSI)         |
 |  MPC2515 - SCK |  D13   (SPI_SCK) |   | MPC2515 - SCK |          13   (SPI_SCK)         |
 |  MPC2515 - INT  |        D8        |   | MPC2515 - INT |                2                |
-|   DHT11 - VCC   |        +5V       |   |               |                                 |
-|   DHT11 - GND   |        GND       |   |               |             **LCD**             |
-|   DHT11 - OUT  |        A0        |   |   LCD - VSS   |               GND               |
+|                 |                  |   |               |                                 |
+|                 |                  |   |               |             **LCD**             |
+|                 |                  |   |   LCD - VSS   |               GND               |
 |                 |                  |   |   LCD - VDD   |               +5V               |
 |                 |                  |   |    LCD - V0   | To 10K Potentiometer Centre PIN |
 |                 |                  |   |    LCD - RS   |                3                |
