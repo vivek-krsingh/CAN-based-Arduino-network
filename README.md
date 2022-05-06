@@ -14,7 +14,41 @@ The reciever unit receives this distance infomation over CAN and displays the us
 
 **3. Schematics:**
 
-**4. Requirements:**
+**4. Pinout:**
+
+|  **ARDUINO_T**  |  **Transmitter** |   |  **Reciever** |          **ARDUINO_R**          |
+|:---------------:|:----------------:|:-:|:-------------:|:-------------------------------:|
+|                 |                  |   |               |                                 |
+|   **HC-SR04**   |                  |   |               |            **Beeper**           |
+|       ECHO      |        D2        |   |     BLACK     |               GND               |
+|       TRIG      |        D3        |   |      RED      |                9                |
+|       VCC       |        +5V       |   |               |                                 |
+|       GND       |        GND       |   |               |                                 |
+|                 |                  |   |               |                                 |
+|   **MCP2515**   |                  |   |               |           **MCP2515**           |
+| MPC2515 -   VCC |        +5V       |   | MPC2515 - VCC |               +5V               |
+|  MPC2515 - GND  |        GND       |   | MPC2515 - GND |               GND               |
+|   MPC2515 - CS  |  D10   (SPI_SS)  |   |  MPC2515 - CS |          10   (SPI_SS)          |
+|   MPC2515 - SO  | D12   (SPI_MISO) |   |  MPC2515 - SO |         12   (SPI_MISO)         |
+|  MPC2515 - S I  | D11   (SPI_MOSI) |   |  MPC2515 - SI |         11   (SPI_MOSI)         |
+|  MPC2515 - SCK |  D13   (SPI_SCK) |   | MPC2515 - SCK |          13   (SPI_SCK)         |
+|  MPC2515 - INT  |        D8        |   | MPC2515 - INT |                2                |
+|   DHT11 - VCC   |        +5V       |   |               |                                 |
+|   DHT11 - GND   |        GND       |   |               |             **LCD**             |
+|   DHT11 - OUT  |        A0        |   |   LCD - VSS   |               GND               |
+|                 |                  |   |   LCD - VDD   |               +5V               |
+|                 |                  |   |    LCD - V0   | To 10K Potentiometer Centre PIN |
+|                 |                  |   |    LCD - RS   |                3                |
+|                 |                  |   |    LCD - RW   |               GND               |
+|                 |                  |   |    LCD - E    |                4                |
+|                 |                  |   |    LCD - D4   |                5                |
+|                 |                  |   |    LCD - D5   |                6                |
+|                 |                  |   |    LCD - D6   |                7                |
+|                 |                  |   |    LCD - D7   |                8                |
+|                 |                  |   |    LCD - A    |               +5V               |
+|                 |                  |   |    LCD - K    |               GND               |
+
+**5. Requirements:**
 The requirements for the successful implementation of this project are as listed below:
 
 HARDWARE:
