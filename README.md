@@ -13,6 +13,7 @@ NODE_2
 The reciever unit receives this distance infomation over CAN and displays the user with a prompt on the LCD screen showing the distance of the sensor(vehicle) to the user. The infomration can also be shared over SPI to another program/system to perform additional calculations.
 
 **3. Schematics:**
+![image](https://user-images.githubusercontent.com/60755502/167174997-34fc95a2-ff5d-4ee6-a0f5-efe2e21dc5df.png)
 
 **4. Pinout:**
 
