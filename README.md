@@ -14,7 +14,7 @@ The reciever unit receives this distance infomation over CAN and displays the us
 
 **3. Schematics:**
 ![image](https://user-images.githubusercontent.com/60755502/167176057-6055389d-fb8e-43be-a03c-f8e58094adf8.png)
-**4. Pinout:**
+**4. Pinout Connections:**
 
 |  **ARDUINO_T**  |  **Transmitter** |   |  **Reciever** |          **ARDUINO_R**          |
 |:---------------:|:----------------:|:-:|:-------------:|:-------------------------------:|
