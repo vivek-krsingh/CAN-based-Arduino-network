@@ -22,7 +22,7 @@ HARDWARE:
 | Component                 | Count |
 |---------------------------|-------|
 | Arduino Uno               | 2x    |
-| 10k Potentiometer         | 1x    |
+| 10k Potentiometer         | 2x    |
 | Ultrasonic Sensor HC-SR04 | 1x    |
 | Beeper 780-0712           | 1x    |
 | LCD Display (16x2)        | 1x    |
