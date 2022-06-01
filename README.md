@@ -13,7 +13,8 @@ NODE_2
 The reciever unit receives this distance infomation over CAN and displays the user with a prompt on the LCD screen showing the distance of the sensor(vehicle) to the user. The infomration can also be shared over SPI to another program/system to perform additional calculations.
 
 **3. Schematics:**
-![image](https://user-images.githubusercontent.com/60755502/167176057-6055389d-fb8e-43be-a03c-f8e58094adf8.png)
+![Schematic](https://user-images.githubusercontent.com/60755502/171505002-d8b7d41a-73ef-447f-8901-f51b88e7778c.jpg)
+
 **4. Pinout Connections:**
 
 |  **ARDUINO_T**  |  **Transmitter** |   |  **Reciever** |          **ARDUINO_R**          |
@@ -21,7 +22,7 @@ The reciever unit receives this distance infomation over CAN and displays the us
 |                 |                  |   |               |                                 |
 |   **HC-SR04**   |                  |   |               |            **Beeper**           |
 |       ECHO      |        D2        |   |     BLACK     |               GND               |
-|       TRIG      |        D3        |   |      RED      |                9                |
+|       TRIG      |        D3        |   |      RED      |                8                |
 |       VCC       |        +5V       |   |               |                                 |
 |       GND       |        GND       |   |               |                                 |
 |                 |                  |   |               |                                 |
@@ -34,19 +35,7 @@ The reciever unit receives this distance infomation over CAN and displays the us
 |  MPC2515 - SCK |  D13   (SPI_SCK) |   | MPC2515 - SCK |          13   (SPI_SCK)         |
 |  MPC2515 - INT  |        D8        |   | MPC2515 - INT |                2                |
 |                 |                  |   |               |                                 |
-|                 |                  |   |               |             **LCD**             |
-|                 |                  |   |   LCD - VSS   |               GND               |
-|                 |                  |   |   LCD - VDD   |               +5V               |
-|                 |                  |   |    LCD - V0   | To 10K Potentiometer Centre PIN |
-|                 |                  |   |    LCD - RS   |                3                |
-|                 |                  |   |    LCD - RW   |               GND               |
-|                 |                  |   |    LCD - E    |                4                |
-|                 |                  |   |    LCD - D4   |                5                |
-|                 |                  |   |    LCD - D5   |                6                |
-|                 |                  |   |    LCD - D6   |                7                |
-|                 |                  |   |    LCD - D7   |                8                |
-|                 |                  |   |    LCD - A    |               +5V               |
-|                 |                  |   |    LCD - K    |               GND               |
+
 
 **5. Requirements:**
 The requirements for the successful implementation of this project are as listed below:
@@ -56,13 +45,11 @@ HARDWARE:
 | Component                 | Count |
 |---------------------------|-------|
 | Arduino Uno               | 2x    |
-| 10k Potentiometer         | 2x    |
 | Ultrasonic Sensor HC-SR04 | 1x    |
 | Beeper 780-0712           | 1x    |
-| LCD Display (16x2)        | 1x    |
 | CAN modules MCP2515       | 2x    |
-| M-F Jumper wire           | 23x   |
-| M-M Jumper wire           | 22x   |
+| M-F Jumper wire           | 14x   |
+| M-M Jumper wire           | 14x   |
 | Breadboard                | 2x    |
 | USB 2.0 Cable Type A/B    | 2x    |
 
