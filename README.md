@@ -53,4 +53,13 @@ HARDWARE:
 | Breadboard                | 2x    |
 | USB 2.0 Cable Type A/B    | 2x    |
 
+
+
 SOFTWARE: Arduino IDE
+
+**6. Final:**
+Final System:
+![Prototype](https://user-images.githubusercontent.com/60755502/171520653-b2894668-2684-4d6a-87c1-edf801a64ab8.jpeg)
+
+Working Video:
+https://user-images.githubusercontent.com/60755502/171520833-966b87b0-16f8-4f23-b458-fb9fac9009fe.mp4
